@@ -100,3 +100,20 @@ nav {
 .centre-fig {
   margin: 0em;
 }
+
+.nav-link {
+  display: none;
+}
+.navbar.fixed-right {
+  background: rgba(30, 30, 30, 0.7);
+  border-radius: 20px 0px 0px 20px;
+  color: #ffffff;
+  float: right;
+  bottom: 0;
+  width: 250px;
+  height: calc(100vh - 200px);
+  align-items: flex-start;
+}
+#rubr-act {
+  color: #ffc800;
+}
