@@ -32,16 +32,14 @@ nav {
   color: #ffffff;
 }
 
-#map {
-  /* position: absolute; */
-  background-color: rgb(0, 56, 78);
+#maps {
 }
 
 .sidebar-sticky {
   width: 300px;
   position: sticky;
   top: 0;
-  min-height: 100vh;
+  height: 641px;
   padding-top: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
@@ -57,6 +55,10 @@ nav {
   align-items: center;
 
   color: #ffffff;
+}
+.nav-item {
+  border-bottom: solid rgba(255, 255, 255, 0.445) 0.5px;
+  border-top: solid rgba(255, 255, 255, 0.445) 0.5px;
 }
 .sidebar .nav.sub-menu .nav-item::before {
   content: "";
@@ -131,11 +133,31 @@ nav {
   color: #ffc800;
 }
 #graph {
-  border-radius: 20px 0px 0px 20px;
   width: 250px;
 }
 #right-side {
   float: right;
   width: auto;
   height: 100vh;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-group-flush .list-group-item {
+  border-bottom: solid white;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.list-group-item-action {
+  width: 100%;
+  color: #495057;
+  text-align: inherit;
+}
+.col-md-4 {
+  border-right: solid #8e95aa 1px;
 }
