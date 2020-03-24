@@ -1,3 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+.navbar > #navbar-top {
+  size: 500px;
+  opacity: 0.42;
+  background-image: url("../img/corona.png");
+  background-repeat: repeat;
+  background-position: 991px, 557px, -102px, -49px; /* Where the image will be positioned relative to "top, right, bottom, and/or left */
+  background-attachment: fixed; /* use with "fixed" to make it scroll with page */
+}
 nav {
   padding: none;
   width: 100%;
@@ -26,9 +38,10 @@ nav {
 }
 
 .sidebar-sticky {
+  width: 300px;
   position: sticky;
   top: 0;
-  min-height: calc(100vh - 65px);
+  min-height: 100vh;
   padding-top: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
@@ -111,9 +124,18 @@ nav {
   float: right;
   bottom: 0;
   width: 250px;
-  height: calc(100vh - 200px);
+  height: 100vh;
   align-items: flex-start;
 }
 #rubr-act {
   color: #ffc800;
+}
+#graph {
+  border-radius: 20px 0px 0px 20px;
+  width: 250px;
+}
+#right-side {
+  float: right;
+  width: auto;
+  height: 100vh;
 }

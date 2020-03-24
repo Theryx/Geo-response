@@ -16,17 +16,25 @@
   </head>
 
   <body>
-    <nav class="navbar flex-md-nowrap p-0 shadow">
+    <!-- Nav Bar TOP -->
+    <nav class="navbar flex-md-nowrap p-0 shadow" id="navbarr">
       <a class="navbar-brand mx-auto" href="#">COVID-19 2019-ncov</a>
     </nav>
-    <nav class="navbar navbar-expend-md navbar-dark fixed-right">
-      <h5 id="rubr-act">RUBRIQUE ACTUALITE</h5>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Quis eius beatae placeat cumque ducimus, sequi dolorem 
-      voluptatibus, doloremque aspernatur odio, ratione quo 
-      obcaecati. Recusandae, minus et. Esse ad facilis saepe.</p>
-    </nav>
-    <div class="container-fluid">
+
+    <div class="col-md-3 d-flex flex-column " id="right-side">
+      <nav class="p-2 navbar  navbar-dark fixed-right" id="rubr1">
+        <h5 id="rubr-act">RUBRIQUE ACTUALITE</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quis eius beatae placeat cumque ducimus, sequi dolorem 
+        voluptatibus, doloremque aspernatur odio, ratione quo 
+        obcaecati. Recusandae, minus et. Esse ad facilis saepe.</p>
+      </nav>
+      <!-- <nav class=" p-2navbar navbar-expend-md navbar-dark fixed-right" id="graph">
+        <h5 id="rubr-act">GRAPHS</h5>
+      <p>Lorem ipsum .</p>
+      </nav> -->
+    </div>
+    <div class="">
       <div class="row">
         <nav class="col-md-3 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
@@ -182,9 +190,10 @@
             </ul>
         </nav>
 
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <main role="main" class="col-md-6 col-lg-10 px-4">
           <div id="map"></div>
         </main>
+        
       </div>
 
     </div>
@@ -193,5 +202,5 @@
      <script src="js/script.js"></script>
      <script src="node_modules/popper.js/dist/popper.min.js"></script>
      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  </body> 
 </html>
